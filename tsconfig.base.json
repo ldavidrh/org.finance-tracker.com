@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@backend/*": ["apps/backend/src"],
+      "@frontend/*": ["apps/frontend/src"],
+      "@backend-e2e/*": ["apps/backend-e2e/src"],
+      "@frontend-e2e/*": ["apps/frontend-e2e/src"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
